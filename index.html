@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Китайцы!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <img src="assets/images/logo.png" alt="" class="header-logo">
+                <div class="header-menu">
+                    <p data-target="about" class="scrollButton">О нас</p>
+                    <p data-target="uslugi" class="scrollButton">Услуги</p>
+                    <p data-target="price" class="scrollButton">Прайс</p>
+                    <p data-target="contacts" class="scrollButton">Контакты</p>
+                </div>
+                <div class="header-messanger">
+                    <img src="assets/images/telegram.png" alt="" class="header-telegram">
+                    <img src="assets/images/whatsapp.png" alt="" class="header-whatsapp">
+                </div>
+                <div class="header-contacts">
+                    <div class="contact-row">
+                        <img src="assets/images/phone.png" alt="" class="header-icon">
+                        <p>+74993255494</p>
+                    </div>
+                    <div class="contact-row">
+                        <img src="assets/images/email.png" alt="" class="header-icon">
+                        <p>Vtg8@yandex.ru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="airplane">
+        <img src="assets/images/airplane.png" alt="" class="airplane">
+        <img src="assets/images/zakupki.png" alt="" class="zakupki">
+        <p>ПОИСК, ЗАКУПКА, ДОСТАВКА <br> ТОВАРОВ ИЗ КИТАЯ</p>
+        <img src="assets/images/call_button.png" alt="" class="call scrollButton"  data-target="call">
+
+    </div>
+    <div class="marquee">
+
+        <p>НАДЕЖНО, ЧЕТКО, ПРОФЕССИОНАЛЬНО</p>
+    </div>
+    <div class="none-relative">
+        <div class="main">
+        <img src="assets/images/stars.png" alt="" class="stars">
+        <img src="assets/images/china_boxes.png" alt="" class="china-box">
+            <div class="china-text">
+                <p class="title">В КИТАЕ ЕСТЬ ВСЕ:</p>
+                <p>1. НИЗКАЯ ЦЕНА</p>
+                <p>2. ШИРОКИЙ АССОРТИМЕНТ</p>
+                <p>3. ДРУЖЕСТВЕННАЯ СТРАНА</p>
+            </div>
+            <img src="assets/images/question_button.png" alt="" class="question  scrollButton" data-target="question">
+            <div class="text">
+                <p><b>НИЗКАЯ СЕБЕСТОИМОСТЬ ТОВАРА</b></p>
+                <p>МЫ ЗНАЕМ КАК ПОЛУЧИТЬ</p>
+            </div>
+
+        </div>
+        <div class="carousel-container">
+            <img src="assets/images/stars.png" alt="" class="carousel-stars">
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-card">
+                            <p class="swiper-title">ПРАВИЛЬНАЯ ЗАКУПКА</p>
+                            <p class="swiper-text">
+                                ПЕРЕГОВОРЫ, КОНТРАКТ, ОПЛАТА,<br>
+                                КОНТРОЛЬ СРОКОВ, КОНТРОЛЬ КАЧЕСТВА<br>
+                                В ПРОЦЕССЕ ПРОИЗВОДСТВА, МАРКИРОВКА,<br>
+                                КОНТРОЛЬ СООТВЕТСТВИЯ КАЧЕСТВА<br>
+                                И КОЛИЧЕСТВЕ ПРИ ПРИЕМКЕ ТОВАРА,<br>
+                                ДОКУМЕНТАЦИЯ(ИНВОЙС, УПАКОВОЧНЫЙ ЛИСТ,<br>
+                                ЗАКАЗ, СПЕЦИФИКАЦИЯ).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-card">
+                            <p class="swiper-title">ПРАВИЛЬНЫЙ ПОСТАВЩИК</p>
+                            <p class="swiper-text" style="font-size: clamp(28px, 4vw, 58px);line-height: clamp(28px, 4vw, 68px);">
+                                ЦЕНА<br>
+                                КАЧЕСТВО<br>
+                                СРОКИ<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-card">
+                            <p class="swiper-title">ПРАВИЛЬНАЯ ЛОГИСТИКА</p>
+                            <p class="swiper-text">
+                                ПОДБОР ОПТИМАЛЬНОГО<br>
+                                МАРШРУТА ПО ТРЕБОВАНИЯМ<br>
+                                ЗАКАЗЧИКА. АВИА, ЖД, МОРЕ, АВТО,<br>
+                                КОМБИНИРОВАННЫЕ МАРШРУТЫ.<br>
+                                КАРГО, "БЕЛАЯ" ДОСТАВКА<br>
+                                (КОНТЕЙНЕРНАЯ ДОСТАВКА ИЛИ СБОРНАЯ)<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+<!--                <div class="swiper-button-next"></div>-->
+<!--                <div class="swiper-button-prev"></div>-->
+
+            </div>
+
+            <script type="module">
+                import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+                const swiper = new Swiper('.swiper', {
+                    spaceBetween: 30,
+                    slidesPerView: 1,
+                    centeredSlides: true,
+                    loop: true,
+                    autoplay: {
+                        delay: 8000,
+                        disableOnInteraction: false
+                    },
+                    // pagination: {
+                    //     el: '.swiper-pagination',
+                    // },
+                    // navigation: {
+                    //     nextEl: '.swiper-button-next',
+                    //     prevEl: '.swiper-button-prev',
+                    // },
+
+                });
+            </script>
+        </div>
+        <div class="blue-sky">
+            <img src="assets/images/sky.png" alt="">
+            <div class="container">
+            <p class="title-sky" id="uslugi">НАШИ УСЛУГИ</p>
+            <img src="assets/images/flag.png" alt="" class="flag">
+            <img src="assets/images/mini_airplane.png" alt="" class="mini-airplane">
+            <img src="assets/images/oblako.png" alt="" class="oblako">
+            <div class="card-container">
+                <div class="card-row row">
+                    <div class="card-column w-30">
+                        <div class="card white w-100">
+                            <p class="card-title" style="margin-bottom: -10px;">ПОЛНОЕ</p>
+                            <p class="card-text" style="margin-bottom: 20px;">СОПРОВОЖДЕНИЕ СДЕЛКИ</p>
+                            <div class="card-text-rand">
+                                <p class="card-title">10%</p>
+                                <p class="card-text">ОТ СТОИМОСТИ ЗАКУПКИ</p>
+                            </div>
+                            <p class="card-text-mini">- <b>КОНСУЛЬТАЦИЯ</b> ПОРАБОТЕ С КИТАЕМ</p>
+                            <p class="card-text-mini">- <b>ПОИСК</b> ТОВАРА</p>
+                            <p class="card-text-mini">- <b>ПЕРЕГОВОРЫ</b></p>
+                            <p class="card-text-mini">- <b>СБОР</b> ОБРАЗЦОВ И ИХ ДОСТАВКА</p>
+                            <p class="card-text-mini">- <b>ПРОВЕРКА</b> КАЧЕСТВА</p>
+                            <p class="card-text-mini">- <b>БРЕНДИРОВАНИЕ</b></p>
+                            <p class="card-text-mini">- <b>КОНТРАКТЫ</b></p>
+                            <p class="card-text-mini">- <b>ОПЛАТЫ, ПЕРЕВОДЫ</b> ДЕНЕЖНЫХ СРЕДСТВ</p>
+                            <p class="card-text-mini">- <b>КОНТРОЛЬ</b> СРОКОВ</p>
+                            <p class="card-text-mini">- <b>ОРГАНИЗАЦИЯ</b> БИЗНЕС-ТУРА</p>
+                        </div>
+                    </div>
+                    <div class="card-column w-70">
+                        <div class="card-row h-50">
+                            <div class="card blue w-55">
+                                <p class="card-title" style="margin-bottom: -10px;">ЛЕГАЛЬНЫЕ</p>
+                                <p class="card-text">СДЕЛКИ</p>
+                                <p class="card-text-mini">- <b>ОФИЦИАЛЬНОЕ</b> ТАМОЖЕННОЕ ОФОРМЛЕНИЕ</p>
+                                <p class="card-text-mini">- <b>ОФИЦИАЛЬНЫЕ</b> ОПЛАТЫ</p>
+                                <p class="card-text-mini">- <b>ОФИЦИАЛЬНЫЕ</b> ДОКУМЕНТЫ</p>
+                                <p class="card-text-mini"><b>(СЕРТИФИКАЦИЯ, ЧЕСТНЫЙ ЗНАК, ГТД, СЧЕТА ФАКТУРЫ)</b></p>
+                            </div>
+                            <div class="card white w-45">
+                                <p class="card-title">ПРОВЕРКА КАЧЕСТВА ТОВАРА</p>
+                                <p class="card-subtitle">СОГЛАСНО ВАШЕМУ ТЗ</p>
+
+                            </div>
+                        </div>
+                        <div class="card-row h-50">
+                            <div class="card white w-50">
+                                <p class="card-title">ПОИСК ТОВАРА</p>
+                                <p class="card-subtitle">НА <b>ВЫСТАВКЕ,</b></p>
+                                <p class="card-subtitle"><b>СБОР</b> ОБРАЗЦОВ</p>
+                                <p class="card-subtitle"><b>100 - 150$</b></p>
+                            </div>
+                            <div class="card blue w-50">
+                                <p class="card-title">ОФОРМЛЕНИЕ СЕРТИФИКАТОВ <br>НА ТОВАР</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row row"  id="price">
+                    <div class="card-column w-40">
+                        <div class="card blue w-100">
+                            <p class="card-title">БИЗНЕС ТУР В КИТАЙ -25.000Р</p>
+                            <p class="card-subtitle" style="margin-bottom: 10px">* ПРИ СОПРОВОЖДЕНИИ <br>ПОЛНОЙ СДЕЛКИ, <br> ОРГАНИЗАЦИЯ <br> БИЗНЕС-ТУРА <b>БЕСПЛАТНО</b></p>
+                            <p class="card-title">КОНСУЛЬТАЦИЯ</p>
+                            <p class="card-subtitle">ПО РАБОТЕ С КИТАЕМ</p>
+                            <p class="card-subtitle"><b>-2500Р</b></p>
+                        </div>
+                    </div>
+                    <div class="card-column w-60">
+                        <div class="card-row h-75">
+                            <div class="card white w-100"  style="text-align: center">
+                                <p class="card-title">МАРКИРОВКА, ПРИЕМКА,</p>
+                                <p class="card-title">ПЕРЕУПАКОВКА,</p>
+                                <p class="card-title">БРЕНДИРОВАНИЕ,</p>
+                                <p class="card-title">ДОПОЛНИТЕЛЬНАЯ</p>
+                                <p class="card-title">УПАКОВКА ТОВАРА,</p>
+                                <p class="card-title">ДОСТАВКА КАРГО И БЕЛАЯ</p>
+                            </div>
+                        </div>
+                        <div class="card-row h-22" >
+                            <div class="card blue w-100" style="text-align: center">
+                                <p class="card-subtitle"><b>ПЕРЕВОДЧИК</b> В КИТАЕ</p>
+                                <p class="card-subtitle"><b>100-150$ ДЕНЬ</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row row">
+                    <div class="card-column w-25">
+                        <div class="card white w-100">
+                            <p class="card-title">ПЕРЕГОВОРЫ</p>
+                            <p class="card-text" style="margin-bottom: 20px;"><b>С УЖЕ ИМЕЮЩИМСЯ <br> ВАШИМ ПОСТАВЩИКОМ</b></p>
+                            <p class="card-text-mini" style="margin-bottom: 20px;"><b>-СБОР</b> ВСЕЙ НЕОБХОДИМОЙ <br>ИНФОРМАЦИИ ДЛЯ ВАС <br>(МИНИМАЛЬНИАЯ ПАРТИСЯ, ЦЕНА, СКИДКА, ЦВЕТ)</p>
+                            <p class="card-text-mini" style="margin-bottom: 20px;"><b>-ТЕХНИЧЕСКИЕ ПАРАМЕТРЫ, ГАБАРИТЫ</b> УПАКОВКИ, <b>СРОКИ</b> ИЗГОТОВЛЕНИЯ И ПР.</p>
+                            <p class="card-title">-1000Р</p>
+                        </div>
+                    </div>
+                    <div class="card-column w-75">
+                        <div class="card-row h-80">
+                            <div class="card blue w-50">
+                                <p class="card-title">ПОИСК ТОВАРА</p>
+                                <p class="card-subtitle" style="margin-bottom: 20px;">ПО ВАШЕМУ ТЕХНИЧЕСКОМУ ЗАДАНИЮ</p>
+                                <p class="card-title" style="margin-bottom: 20px;">-1500Р</p>
+                                <p class="card-text-mini" style="margin-bottom: 10px;"><b>-НАЙДЕМ</b> ДЛЯ ВАС ТРЕХ ПОСТАВЩИКОВ</p>
+                                <p class="card-text-mini"><b>-СОБЕРЕМ</b> ВСЕ НЕОБХОДИМЫЕ ДАННЫЕ</p>
+                            </div>
+                            <div class="card white w-50">
+                                <p class="card-title">РАСЧЁТ</p>
+                                <p class="card-text" style="margin-bottom: 20px;">СЕБЕСТОИМОСТИ ТОВАРА</p>
+                                <p class="card-text-mini"><b>-ПОДБОР</b> ЛОГИЧЕСКОЙ СХЕМЫ</p>
+                                <p class="card-text-mini"><b>-ПОДБОР</b> КОДОВ ТНВЭД</p>
+                                <p class="card-text-mini" style="margin-bottom: 20px;"><b>-СБОР</b> ИНФОРМАЦИИ <br> ПО РАЗРЕШИТЕЛЬНОЙ ДОКУМЕНТАЦИИ</p>
+                                <p class="card-title">-2500Р</p>
+                            </div>
+                        </div>
+                        <div class="card-row h-20">
+                            <div class="card blue w-75"  style="display: flex; align-items: center; justify-content: center;">
+                                <p class="card-subtitle"><b>ПЕРВИЧНАЯ КОНСУЛЬТАЦИЯ - БЕСПЛАТНО</b></p>
+                            </div>
+                            <div class="card dark-blue w-25" style="display: flex; align-items: center; justify-content: center;">
+                                <p class="card-subtitle" style="color: #FFFFFF"><b>ЗАКАЗАТЬ</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            <div class="country-container">
+                <img src="assets/images/country.png" alt="" class="country">
+            </div>
+            <div class="country-title" >
+                <p>МЫ СТАРАЕМСЯ ДЛЯ ВАС, <br> ВЕДЬ УСПЕХ ВАШЕГО БИЗНЕСА - ЭТО УСПЕХ НАШЕГО БИЗНЕСА</p>
+            </div>
+            <div class="container">
+                <div class="form-row">
+                    <div class="form-card" id="call">
+                        <p class="form-title">НАЙТИ ТОВАР</p>
+                        <div class="input-container">
+                            <input type="text" placeholder="Ваше имя *" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Телефон *" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Почта *" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="В каком мессенджере вас удобнее получить расчет?*" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Фото товара или ссылка, наименование, количество, характеристики*" aria-label="">
+                        </div>
+                    </div>
+                    <div class="form-card" id="question">
+                        <p class="form-title">ЕСТЬ ВОПРОСЫ? <br> НУЖНА КОНСУЛЬТАЦИЯ?</p>
+                        <div class="input-container">
+                            <input type="text" placeholder="Ваше имя *" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Телефон *" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Какой мессенджер наиболее удобный для вас?*" aria-label="">
+                        </div>
+                        <div class="input-container">
+                            <input type="text" placeholder="Вопрос" aria-label="">
+                        </div>
+                        <p class="default-text">*Прямые звонки  на абоненты РФ не всегда <br>могут быть доступны, так как на данный момент,<br> мы находимся в Китае</p>
+                    </div>
+                </div>
+            </div>
+            <div class="last-block">
+                <img src="assets/images/stars.png" alt="" class="last-stars">
+            </div>
+            <div class="about-block" id="about">
+                <img src="assets/images/women.png" alt="" class="woman about-image">
+                <img src="assets/images/light.png" alt="" class="light about-image">
+                <img src="assets/images/rectangle.png" alt="" class="rectangle about-image">
+                <div class="about-text">
+                    <p>
+                        Я, Юсупова Татьяна, основатель <br>
+                        компании <b>Express-agent</b>.<br>
+                        Работаю с Китаем <b>с 2004 года</b>.<br>
+                        Имею <b>большой опыт в закупках и поставках</b><br>
+                        различных товаров. Собрала команду<br>
+                        <b>профессионалов</b> в России и Китае. Ведем<br>
+                        <b>легальный бизнес</b>, имеем <b>официальное</b><br>
+                        <b>юридическое лицо</b> и в России, и в Китае.<br>
+                        Мы знаем Китай и любим то, что делаем.<br>
+                        С нами ваши закупки будут <b>выгодными</b><br>
+                        <b>и безопасными</b>.<br>
+                        <b>Организуем </b>поездки на фабрики и выставки.<br>
+                        <b>Приглашаем вас к сотрудничеству!</b><br>
+                    </p>
+                </div>
+                <img src="assets/images/china-airplane.png" alt="" class="china-airplane about-image">
+                <p class="article" id="contacts">В связи с высоким сезоном, <br>
+                    сейчас вся наша команда <br>
+                    находится в Китае. <br>
+                    Для связи с нами (смс, звонки) <br>
+                    используйте, пожалуйста, <br>
+                    любой удобный для вас мессенджер
+                </p>
+                <div class="qr-row">
+                    <img src="assets/images/qr1.png" alt="" class="qr">
+                    <img src="assets/images/qr2.png" alt="" class="qr">
+                    <img src="assets/images/qr3.png" alt="" class="qr">
+                </div>
+                <img src="assets/images/stars_bottom.png" alt="" class="china-stars">
+                <div class="map-column">
+                    <div class="map-row">
+                        <img src="assets/images/map.png" alt="" class="map">
+                        <p>Подольск ул. Карла Маркса 57</p>
+                    </div>
+                    <div class="map-row">
+                        <img src="assets/images/phone.png" alt="" class="phone">
+                        <p>+74993255494</p>
+                    </div>
+                    <div class="map-row">
+                        <img src="assets/images/email.png" alt="" class="mail">
+                        <p>Vtg8@yandex.ru</p>
+                    </div>
+                </div>
+                <p class="china-contacts">1st Floor, Unit 5, Building 72, <br>
+                    Taojieling, Yiwu City, Zhejiang Province <br>
+                    Zip code 322000 <br>
+                    Recipient: Zhao Na +8613665842679
+                </p>
+                <img src="assets/images/yandex_maps.png" alt="" class="yandex about-image">
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</div>
+<script>
+    const scrollButtons = document.querySelectorAll('.scrollButton');
+
+    scrollButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetId = button.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
