@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/scale.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body id="logo">
@@ -78,7 +81,41 @@
     <div class="block-three">
         <img src="assets/images/stars.png" alt="" class="stars">
         <div class="container">
-
+            <div class="slider">
+                <div class="carousel">
+                    <div class="carousel-cell">
+                        <p class="swiper-title">ПРАВИЛЬНАЯ ЗАКУПКА</p>
+                        <p class="swiper-text">
+                            ПЕРЕГОВОРЫ, КОНТРАКТ, ОПЛАТА,<br>
+                            КОНТРОЛЬ СРОКОВ, КОНТРОЛЬ КАЧЕСТВА
+                            В ПРОЦЕССЕ ПРОИЗВОДСТВА, МАРКИРОВКА,
+                            КОНТРОЛЬ СООТВЕТСТВИЯ КАЧЕСТВА
+                            И КОЛИЧЕСТВЕ ПРИ ПРИЕМКЕ ТОВАРА,
+                            ДОКУМЕНТАЦИЯ (ИНВОЙС, УПАКОВОЧНЫЙ ЛИСТ,
+                            ЗАКАЗ, СПЕЦИФИКАЦИЯ).
+                        </p>
+                    </div>
+                    <div class="carousel-cell">
+                        <p class="swiper-title">ПРАВИЛЬНЫЙ ПОСТАВЩИК</p>
+                        <p class="swiper-text" style="font-size: clamp(28px, 4vw, 58px);line-height: clamp(28px, 4vw, 68px);">
+                            ЦЕНА<br>
+                            КАЧЕСТВО<br>
+                            СРОКИ<br>
+                        </p>
+                    </div>
+                    <div class="carousel-cell">
+                        <p class="swiper-title">ПРАВИЛЬНАЯ ЛОГИСТИКА</p>
+                        <p class="swiper-text">
+                            ПОДБОР ОПТИМАЛЬНОГО<br>
+                            МАРШРУТА ПО ТРЕБОВАНИЯМ<br>
+                            ЗАКАЗЧИКА. АВИА, ЖД, МОРЕ, АВТО,
+                            КОМБИНИРОВАННЫЕ МАРШРУТЫ.<br>
+                            КАРГО, "БЕЛАЯ" ДОСТАВКА<br>
+                            (КОНТЕЙНЕРНАЯ ДОСТАВКА ИЛИ СБОРНАЯ)<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="block-four">
@@ -322,5 +359,30 @@
         </div>
     </div>
 </div>
+<script>
+    /* $(document).ready(function(){
+        $(".b").click(function(){
+            $(this).toggleClass("b");
+            $(this).toggleClass("b-selected");
+        });
+    }); */
+
+    /* document.addEventListener('DOMContentLoaded', () => {
+        let slideBtn = document.querySelectorAll('.b')
+        console.log(slideBtn)
+        slideBtn.forEach(btn => {
+            console.log(btn)
+        })
+    }) */
+
+    let elem = document.querySelector('.carousel');
+    let flkty = new Flickity( elem, {
+        // options
+        wrapAround: true,
+        contain: true,
+        cellalign: 'right',
+        groupCells: '30%',
+    });
+</script>
 </body>
 </html>
