@@ -4,150 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Китайцы!</title>
+    <title>ExpressAgent</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
-<body>
+<body id="logo">
 <div class="wrapper">
-    <header class="header">
+    <div class="header">
         <div class="container">
-            <div class="header-container">
-                <img src="assets/images/logo.png" alt="" class="header-logo">
-                <div class="header-menu">
-                    <p data-target="about" class="scrollButton">О нас</p>
-                    <p data-target="uslugi" class="scrollButton">Услуги</p>
-                    <p data-target="price" class="scrollButton">Прайс</p>
-                    <p data-target="contacts" class="scrollButton">Контакты</p>
+            <div class="menu">
+                <a href="#logo">
+                    <img src="assets/images/logo.png" alt="" class="logo">
+                </a>
+                <a href="#about">О нас</a>
+                <a href="#uslugi">Услуги</a>
+                <a href="#price">Прайс</a>
+                <a href="#contacts">Контакты</a>
+                <div class="row">
+                    <img src="assets/images/telegram.png" alt="">
+                    <img src="assets/images/whatsapp.png" alt="">
                 </div>
-                <div class="header-messanger">
-                    <img src="assets/images/telegram.png" alt="" class="header-telegram">
-                    <img src="assets/images/whatsapp.png" alt="" class="header-whatsapp">
-                </div>
-                <div class="header-contacts">
-                    <div class="contact-row">
-                        <img src="assets/images/phone.png" alt="" class="header-icon">
+                <div class="contacts">
+                    <div class="row">
+                        <img src="assets/images/phone.png" alt="">
                         <p>+74993255494</p>
                     </div>
-                    <div class="contact-row">
-                        <img src="assets/images/email.png" alt="" class="header-icon">
+                    <div class="row">
+                        <img src="assets/images/email.png" alt="">
                         <p>Vtg8@yandex.ru</p>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    
-    <div class="airplane">
+    </div>
+    <div class="fixed-button">
+        <a href="#call">
+            <img src="assets/images/call_button.png">
+        </a>
+    </div>
+    <div class="video">
+        тут будет видео
+    </div>
+    <div class="block-one">
         <img src="assets/images/airplane.png" alt="" class="airplane">
-        <img src="assets/images/zakupki.png" alt="" class="zakupki">
-        <p>ПОИСК, ЗАКУПКА, ДОСТАВКА <br> ТОВАРОВ ИЗ КИТАЯ</p>
-        <img src="assets/images/call_button.png" alt="" class="call scrollButton"  data-target="call">
-
+        <div class="container">
+            <img src="assets/images/zakupki.png" alt="" class="zakupki">
+            <h1 class="title">ПОИСК, ЗАКУПКА, ДОСТАВКА <br> ТОВАРОВ  ИЗ КИТАЯ</h1>
+        </div>
     </div>
-    <div class="marquee">
-
-        <p>НАДЕЖНО, ЧЕТКО, ПРОФЕССИОНАЛЬНО</p>
-    </div>
-    <div class="none-relative">
-        <div class="main">
+    <div class="block-two">
+        <div class="marquee">
+            <p>НАДЕЖНО, ЧЕТКО, ПРОФЕССИОНАЛЬНО</p>
+        </div>
         <img src="assets/images/stars.png" alt="" class="stars">
-        <img src="assets/images/china_boxes.png" alt="" class="china-box">
-            <div class="china-text">
-                <p class="title">В КИТАЕ ЕСТЬ ВСЕ:</p>
-                <p>1. НИЗКАЯ ЦЕНА</p>
-                <p>2. ШИРОКИЙ АССОРТИМЕНТ</p>
-                <p>3. ДРУЖЕСТВЕННАЯ СТРАНА</p>
-            </div>
-            <img src="assets/images/question_button.png" alt="" class="question  scrollButton" data-target="question">
-            <div class="text">
-                <p><b>НИЗКАЯ СЕБЕСТОИМОСТЬ ТОВАРА</b></p>
-                <p>МЫ ЗНАЕМ КАК ПОЛУЧИТЬ</p>
-            </div>
-
-        </div>
-        <div class="carousel-container">
-            <img src="assets/images/stars.png" alt="" class="carousel-stars">
-
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper-card">
-                            <p class="swiper-title">ПРАВИЛЬНАЯ ЗАКУПКА</p>
-                            <p class="swiper-text">
-                                ПЕРЕГОВОРЫ, КОНТРАКТ, ОПЛАТА,<br>
-                                КОНТРОЛЬ СРОКОВ, КОНТРОЛЬ КАЧЕСТВА<br>
-                                В ПРОЦЕССЕ ПРОИЗВОДСТВА, МАРКИРОВКА,<br>
-                                КОНТРОЛЬ СООТВЕТСТВИЯ КАЧЕСТВА<br>
-                                И КОЛИЧЕСТВЕ ПРИ ПРИЕМКЕ ТОВАРА,<br>
-                                ДОКУМЕНТАЦИЯ(ИНВОЙС, УПАКОВОЧНЫЙ ЛИСТ,<br>
-                                ЗАКАЗ, СПЕЦИФИКАЦИЯ).
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-card">
-                            <p class="swiper-title">ПРАВИЛЬНЫЙ ПОСТАВЩИК</p>
-                            <p class="swiper-text" style="font-size: clamp(28px, 4vw, 58px);line-height: clamp(28px, 4vw, 68px);">
-                                ЦЕНА<br>
-                                КАЧЕСТВО<br>
-                                СРОКИ<br>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-card">
-                            <p class="swiper-title">ПРАВИЛЬНАЯ ЛОГИСТИКА</p>
-                            <p class="swiper-text">
-                                ПОДБОР ОПТИМАЛЬНОГО<br>
-                                МАРШРУТА ПО ТРЕБОВАНИЯМ<br>
-                                ЗАКАЗЧИКА. АВИА, ЖД, МОРЕ, АВТО,<br>
-                                КОМБИНИРОВАННЫЕ МАРШРУТЫ.<br>
-                                КАРГО, "БЕЛАЯ" ДОСТАВКА<br>
-                                (КОНТЕЙНЕРНАЯ ДОСТАВКА ИЛИ СБОРНАЯ)<br>
-                            </p>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="content">
+                <img src="assets/images/china_boxes.png" alt="" class="china">
+                <div class="text">
+                    <p class="title">В КИТАЕ ЕСТЬ ВСЕ:</p>
+                    <p class="list">1. НИЗКАЯ ЦЕНА</p>
+                    <p class="list">2. ШИРОКИЙ АССОРТИМЕНТ</p>
+                    <p class="list">3. ДРУЖЕСТВЕННАЯ СТРАНА</p>
+                    <a href="#call">
+                        <img src="assets/images/question_button.png" alt="" class="question">
+                    </a>
                 </div>
-<!--                <div class="swiper-button-next"></div>-->
-<!--                <div class="swiper-button-prev"></div>-->
-
             </div>
-
-            <script type="module">
-                import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-                const swiper = new Swiper('.swiper', {
-                    spaceBetween: 30,
-                    slidesPerView: 1,
-                    centeredSlides: true,
-                    loop: true,
-                    autoplay: {
-                        delay: 8000,
-                        disableOnInteraction: false
-                    },
-                    // pagination: {
-                    //     el: '.swiper-pagination',
-                    // },
-                    // navigation: {
-                    //     nextEl: '.swiper-button-next',
-                    //     prevEl: '.swiper-button-prev',
-                    // },
-
-                });
-            </script>
+            <h1 class="title"><b>НИЗКАЯ СЕБЕСТОИМОСТЬ ТОВАРА</b> <br> МЫ ЗНАЕМ КАК ПОЛУЧИТЬ</h1>
         </div>
-        <div class="blue-sky">
-            <img src="assets/images/sky.png" alt="">
-            <div class="container">
-            <p class="title-sky" id="uslugi">НАШИ УСЛУГИ</p>
-            <img src="assets/images/flag.png" alt="" class="flag">
-            <img src="assets/images/mini_airplane.png" alt="" class="mini-airplane">
-            <img src="assets/images/oblako.png" alt="" class="oblako">
+    </div>
+    <div class="block-three">
+        <img src="assets/images/stars.png" alt="" class="stars">
+        <div class="container">
+
+        </div>
+    </div>
+    <div class="block-four">
+        <img src="assets/images/sky.png" alt="" class="sky">
+        <img src="assets/images/flag.png" alt="" class="flag" id="uslugi">
+        <img src="assets/images/oblako.png" alt="" class="oblako">
+        <img src="assets/images/mini_airplane.png" alt="" class="mini_airplane">
+        <div class="container">
+            <h1 class="title">НАШИ УСЛУГИ</h1>
             <div class="card-container">
                 <div class="card-row row">
                     <div class="card-column w-30">
@@ -269,58 +208,60 @@
 
             </div>
         </div>
-            <div class="country-container">
-                <img src="assets/images/country.png" alt="" class="country">
+        <div class="title-block-five">
+            <div class="container" id="call">
+                <h1>МЫ СТАРАЕМСЯ ДЛЯ ВАС, <br> ВЕДЬ УСПЕХ ВАШЕГО БИЗНЕСА - ЭТО УСПЕХ НАШЕГО БИЗНЕСА</h1>
             </div>
-            <div class="country-title" >
-                <p>МЫ СТАРАЕМСЯ ДЛЯ ВАС, <br> ВЕДЬ УСПЕХ ВАШЕГО БИЗНЕСА - ЭТО УСПЕХ НАШЕГО БИЗНЕСА</p>
-            </div>
-            <div class="container">
-                <div class="form-row">
-                    <div class="form-card" id="call">
-                        <p class="form-title">НАЙТИ ТОВАР</p>
-                        <div class="input-container">
-                            <input type="text" placeholder="Ваше имя *" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Телефон *" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Почта *" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="В каком мессенджере вас удобнее получить расчет?*" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Фото товара или ссылка, наименование, количество, характеристики*" aria-label="">
-                        </div>
+        </div>
+
+        <div class="container">
+            <div class="form-row">
+                <div class="form">
+                    <p class="form-title">НАЙТИ ТОВАР</p>
+                    <div class="input-container">
+                        <input type="text" placeholder="Ваше имя *" aria-label="">
                     </div>
-                    <div class="form-card" id="question">
-                        <p class="form-title">ЕСТЬ ВОПРОСЫ? <br> НУЖНА КОНСУЛЬТАЦИЯ?</p>
-                        <div class="input-container">
-                            <input type="text" placeholder="Ваше имя *" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Телефон *" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Какой мессенджер наиболее удобный для вас?*" aria-label="">
-                        </div>
-                        <div class="input-container">
-                            <input type="text" placeholder="Вопрос" aria-label="">
-                        </div>
-                        <p class="default-text">*Прямые звонки  на абоненты РФ не всегда <br>могут быть доступны, так как на данный момент,<br> мы находимся в Китае</p>
+                    <div class="input-container">
+                        <input type="text" placeholder="Телефон *" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Почта *" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="В каком мессенджере вас удобнее получить расчет?*" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Фото товара или ссылка, наименование, количество, характеристики*" aria-label="">
                     </div>
                 </div>
+                <div class="form">
+                    <p class="form-title">ЕСТЬ ВОПРОСЫ? <br> НУЖНА КОНСУЛЬТАЦИЯ?</p>
+                    <div class="input-container">
+                        <input type="text" placeholder="Ваше имя *" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Телефон *" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Какой мессенджер наиболее удобный для вас?*" aria-label="">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Вопрос" aria-label="">
+                    </div>
+                    <p class="default-text"  id="about">*Прямые звонки  на абоненты РФ не всегда <br>могут быть доступны, так как на данный момент, мы находимся в Китае</p>
+
+                </div>
             </div>
-            <div class="last-block">
-                <img src="assets/images/stars.png" alt="" class="last-stars">
-            </div>
-            <div class="about-block" id="about">
-                <img src="assets/images/women.png" alt="" class="woman about-image">
-                <img src="assets/images/light.png" alt="" class="light about-image">
-                <img src="assets/images/rectangle.png" alt="" class="rectangle about-image">
-                <div class="about-text">
+        </div>
+        <img src="assets/images/country.png" alt="" class="country">
+        <img src="assets/images/stars.png" alt="" class="stars">
+        <div class="container">
+            <div class="about-block">
+                <img src="assets/images/rectangle.png" alt="" class="rectangle">
+                <img src="assets/images/light.png" alt="" class="light">
+                <div class="light"></div>
+                <img src="assets/images/women.png" alt="" class="women">
+                <div class="article-about">
                     <p>
                         Я, Юсупова Татьяна, основатель <br>
                         компании <b>Express-agent</b>.<br>
@@ -337,12 +278,12 @@
                         <b>Приглашаем вас к сотрудничеству!</b><br>
                     </p>
                 </div>
-                <img src="assets/images/china-airplane.png" alt="" class="china-airplane about-image">
-                <p class="article" id="contacts">В связи с высоким сезоном, <br>
+                <img src="assets/images/china-airplane.png" alt="" class="china-airplane">
+                <p class="article">В связи с <b>высоким сезоном</b>, <br>
                     сейчас вся наша команда <br>
-                    находится в Китае. <br>
+                    находится <b>в Китае.</b> <br>
                     Для связи с нами (смс, звонки) <br>
-                    используйте, пожалуйста, <br>
+                    используйте, пожалуйста, <br id="contacts">
                     любой удобный для вас мессенджер
                 </p>
                 <div class="qr-row">
@@ -350,7 +291,6 @@
                     <img src="assets/images/qr2.png" alt="" class="qr">
                     <img src="assets/images/qr3.png" alt="" class="qr">
                 </div>
-                <img src="assets/images/stars_bottom.png" alt="" class="china-stars">
                 <div class="map-column">
                     <div class="map-row">
                         <img src="assets/images/map.png" alt="" class="map">
@@ -371,23 +311,15 @@
                     Recipient: Zhao Na +8613665842679
                 </p>
                 <img src="assets/images/yandex_maps.png" alt="" class="yandex about-image">
+                <img src="assets/images/stars.png" alt="" class="stars">
             </div>
         </div>
-        <div class="footer">
+    </div>
+    <div class="block-six">
+        <div class="container">
 
         </div>
     </div>
 </div>
-<script>
-    const scrollButtons = document.querySelectorAll('.scrollButton');
-
-    scrollButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const targetId = button.getAttribute('data-target');
-            const targetElement = document.getElementById(targetId);
-            targetElement.scrollIntoView({ behavior: 'smooth' });
-        });
-    });
-</script>
 </body>
 </html>
