@@ -1,0 +1,264 @@
+@media(max-width: 1200px) {
+    .container{
+        padding: 0 10px;
+        max-width: 970px;
+    }
+    .header{
+        padding-top: 15px;
+        .menu{
+            .logo{
+                width: 220px;
+            }
+            a{
+                font-size: 26px;
+            }
+            .row{
+                img, p{
+                    max-height: 38px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .fixed-button{
+        img{
+            height: 80px;
+        }
+    }
+    .video{
+        position: fixed;
+        top: 70%;
+        left: 2%;
+        z-index: 1000;
+        height: 200px;
+        width: 110px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 100px;
+        box-shadow: 1px 2px 4px black;
+    }
+    .block-one{
+        height: 500px;
+        .zakupki{
+            height: 260px;
+        }
+        .title{
+            padding-top: 20px;
+            font-size: 90px;
+            line-height: 95px;
+        }
+    }
+    .block-two{
+        height: 600px;
+        .content{
+            .china{
+                height: 430px;
+                margin-top: 120px;
+            }
+            .text{
+                padding-top: 50px;
+                .title{
+                    margin-bottom: 5px;
+                    text-align: left;
+                }
+            }
+        }
+        .title{
+            font-size: 72px;
+            line-height: 80px;
+        }
+    }
+    .block-four{
+        .flag{
+            left: 5%;
+            top: -100px;
+        }
+        .mini_airplane{
+            right: -220px;
+            top: -90px;
+        }
+        .oblako{
+            right: -160px;
+            top: -120px;
+        }
+        .card-container{
+            .card{
+                .card-text-rand{
+                    .card-text{
+                        font-size: 22px;
+                        line-height: 32px;
+                    }
+                }
+                .card-title{
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 56px;
+                }
+                .card-subtitle{
+                    font-size: 42px;
+                    line-height: 42px;
+                }
+                .card-text{
+                    font-size: 34px;
+                    line-height: 38px;
+                }
+                .card-text-mini{
+                    font-size: 24px;
+                    line-height: 26px;
+                }
+            }
+        }
+        .title-block-five{
+            font-size: 24px;
+            line-height: 58px;
+
+            margin-top: 30px;
+            margin-bottom: 120px;
+
+            height: 160px;
+        }
+        .form-row{
+            gap: 20px;
+            .form{
+                .form-title{
+                    font-family: 'Bebas Neue', sans-serif;
+                    letter-spacing: 0em;
+                    color: #ffffff;
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 45px;
+                    margin-bottom: 10px;
+                }
+                .default-text{
+                    font-family: 'Gilroy-Regular', sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    letter-spacing: 0em;
+                    text-shadow: 1px 1px 2px #171717;
+                    line-height: 29px;
+                    z-index: -1;
+                    padding-top: 70px;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .about-block{
+            width: 96%;
+            height: 1900px;
+            z-index: 500;
+            position: relative;
+            margin: 0 auto;
+            .rectangle{
+                width: 100%;
+                position: absolute;
+                z-index: 2;
+            }
+            .light{
+                position: absolute;
+                width: 60%;
+                left: -3%;
+                top: -160px;
+
+                background: radial-gradient(49.43% 52.85% at 56.48% 53.51%, #FFFFFF 0%, #FFFFFF 100%);
+                mix-blend-mode: hard-light;
+                filter: blur(150px);
+            }
+            .women{
+                position: absolute;
+                width: 42%;
+                left: -1%;
+                top: -35px;
+                z-index: 3;
+            }
+            .article-about{
+                width: 62%;
+                height: 520px;
+                top: 22px;
+                p{
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+            }
+            .china-airplane{
+                width: 65%;
+                top: 500px;
+            }
+            .article{
+                top: 600px;
+            }
+            .qr-row{
+                position: absolute;
+                top: 920px;
+                display: flex;
+                gap: 20px;
+                z-index: 10;
+                .qr{
+                    width: 170px;
+                }
+            }
+            .map-column{
+                z-index: 10;
+                position: absolute;
+                top: 1150px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                .map-row{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 15px;
+                    .map{
+                        width: 48px;
+                    }
+                    .phone{
+                        width: 48px;
+                    }
+                    .mail{
+                        width: 48px;
+                    }
+                    p{
+                        font-family: 'Gilroy-Regular', sans-serif;
+                        font-size: 36px;
+                        font-weight: 300;
+                        line-height: 36px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .china-contacts{
+                font-family: 'Gilroy-Regular', sans-serif;
+                font-size: 48px;
+                font-weight: 300;
+                line-height: 48px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FFFFFF;
+                position: absolute;
+                top: 1400px;
+            }
+            .yandex{
+                position: absolute;
+                z-index: 12;
+                width: 35%;
+                right: 0;
+                top: 950px;
+            }
+            .stars{
+                position: absolute;
+                object-fit: scale-down;
+                width: 160%;
+                height: auto;
+                top: 750px;
+                left: -30%;
+                transform: rotate(180deg)scale(1.1);
+                z-index: -2;
+            }
+        }
+    }
+
+
+}
