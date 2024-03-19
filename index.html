@@ -360,21 +360,6 @@
     </div>
 </div>
 <script>
-    /* $(document).ready(function(){
-        $(".b").click(function(){
-            $(this).toggleClass("b");
-            $(this).toggleClass("b-selected");
-        });
-    }); */
-
-    /* document.addEventListener('DOMContentLoaded', () => {
-        let slideBtn = document.querySelectorAll('.b')
-        console.log(slideBtn)
-        slideBtn.forEach(btn => {
-            console.log(btn)
-        })
-    }) */
-
     let elem = document.querySelector('.carousel');
     let flkty = new Flickity( elem, {
         // options
@@ -382,6 +367,7 @@
         contain: true,
         cellAlign: 'center',
         groupCells: '30%',
+        draggable: false,
     });
 </script>
 </body>
