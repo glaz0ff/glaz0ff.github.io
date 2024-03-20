@@ -763,12 +763,13 @@
             }
         }
         .about-block{
-            height: 1300px;
+            height: 1400px;
             z-index: 500;
             position: relative;
             margin: 0 auto;
             .rectangle{
                 width: 100%;
+                top: 100px;
                 position: absolute;
                 z-index: 2;
             }
@@ -776,7 +777,7 @@
                 position: absolute;
                 width: 60%;
                 left: -3%;
-                top: -80px;
+                top: 20px;
 
                 background: radial-gradient(49.43% 52.85% at 56.48% 53.51%, #FFFFFF 0%, #FFFFFF 100%);
                 mix-blend-mode: hard-light;
@@ -786,18 +787,19 @@
                 position: absolute;
                 width: 42%;
                 left: -1%;
-                top: -15px;
+                top: 85px;
                 z-index: 3;
             }
             .article-about{
                 display: none;
             }
             .mobile-article-about{
+                display: block;
                 width: 62%;
                 height: 160px;
                 background-color: #FFFFFF;
                 position: absolute;
-                top: 25px;
+                top: 125px;
                 right: 3%;
                 border-radius: 5px;
                 padding: 15px;
@@ -813,11 +815,12 @@
                 }
             }
             .mobile-article-about-later{
+                display: block;
                 width: 98%;
                 max-height: 360px;
                 background-color: #000000;
                 position: absolute;
-                top: 200px;
+                top: 300px;
                 right: 3%;
                 border-radius: 12px;
                 padding: 15px;
@@ -834,12 +837,13 @@
             }
             .china-airplane{
                 width: 75%;
-                top: 500px;
+                top: 600px;
                 z-index: 6;
             }
             .article{
                 position: relative;
-                top: 650px;
+                top: 750px;
+                width: 100%;
                 font-size: 32px;
                 line-height: 32px;
                 z-index: 6;
@@ -850,7 +854,7 @@
             .map-column{
                 z-index: 10;
                 position: absolute;
-                top: 900px;
+                top: 1000px;
 
                 row-gap: 10px;
                 .map-row{
@@ -887,21 +891,21 @@
                 text-align: left;
                 color: #FFFFFF;
                 position: absolute;
-                top: 1100px;
+                top: 1200px;
             }
             .yandex{
                 position: absolute;
                 z-index: 12;
                 width: 35%;
                 right: 0;
-                top: 950px;
+                top: 1050px;
             }
             .stars{
                 position: absolute;
                 object-fit: scale-down;
                 width: 160%;
                 height: auto;
-                top: 740px;
+                top: 940px;
                 left: -30%;
                 transform: rotate(90deg)scale(1.1);
                 z-index: -2;
